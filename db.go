@@ -10,11 +10,11 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/dgraph-io/badger"
+	"github.com/dgraph-io/badger/v2"
 
-	"github.com/zippoxer/bow/codec"
-	jsoncodec "github.com/zippoxer/bow/codec/json"
-	keycodec "github.com/zippoxer/bow/codec/key"
+	"github.com/kice/bow/codec"
+	jsoncodec "github.com/kice/bow/codec/json"
+	keycodec "github.com/kice/bow/codec/key"
 
 	"github.com/sony/sonyflake"
 )

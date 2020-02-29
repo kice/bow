@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/zippoxer/bow/codec"
+	"github.com/kice/bow/codec"
 )
 
 type Codec struct{}
